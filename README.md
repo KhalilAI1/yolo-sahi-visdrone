@@ -24,15 +24,21 @@ Instead of feeding the full compressed image, SAHI slices it into smaller overla
 - Detects large objects (cars) reasonably well
 - Misses most small objects entirely
 
+![Standard YOLOv8](test_sahi_inference2/normal_inference.jpg)
+
 ### 2. YOLOv8 + SAHI
 - Significant improvement in recall
 - More classes detected (pedestrians, motorcycles, vans)
 - Issue: duplicate detections (False Positives) due to overlapping slices → solved with NMS post-processing
 
+![YOLOv8 + SAHI](test_sahi_inference2/prediction_visual.png)
+
 ### 3. Fine-tuned YOLOv8 on VisDrone + SAHI ✅
 - Best results overall
 - Model trained on aerial-specific data
 - Better class distinction across all 10 VisDrone categories
+
+![Fine-tuned + SAHI](test_sahi_inference2/prediction_visual_SAHI_fine-tunning .png)
 
 ---
 
