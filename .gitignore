@@ -1,7 +1,7 @@
 data/
 models/checkpoints/
 runs/
-test*/
+
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
