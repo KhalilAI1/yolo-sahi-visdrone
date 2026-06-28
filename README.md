@@ -38,7 +38,7 @@ Instead of feeding the full compressed image, SAHI slices it into smaller overla
 - Model trained on aerial-specific data
 - Better class distinction across all 10 VisDrone categories
 
-![Fine-tuned + SAHI](test_sahi_inference2/prediction_visual_SAHI_fine-tunning .png)
+![Fine-tuned + SAHI](test_sahi_inference2/prediction_visual_SAHI_fine-tunning.png)
 
 ---
 
