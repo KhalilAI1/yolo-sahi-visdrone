@@ -1,0 +1,11 @@
+data/
+models/checkpoints/
+runs/
+test*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pt
+*.onnx
+*.egg-info/
+visdrone_subset/ 
